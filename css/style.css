@@ -1,0 +1,39 @@
+.jumbotron{
+    background-color: #A7C822;
+    color: #ffffff;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #ffffff;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #A7C822 !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #ffffff !important;
+    background-color: #A7C822 !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.navbar-brand
+{
+    position: relative;
+    background: url(../l_asel-ag-logo.png);
+    width: 180px;
+    left: 15px;
+    max-height: 70px; /* height of the navbar */
+}
+
